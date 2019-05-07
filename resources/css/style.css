@@ -11,7 +11,7 @@
 html,
 body {
     background-color: #000;
-    color: #555;
+    color: #fff;
     font-family: 'Roboto', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -143,8 +143,8 @@ video {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    color: #4c4c4c;
-    font-weight: 400;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
@@ -155,7 +155,7 @@ video {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 4px solid #1565C0;
+    border-bottom: 4px solid #FFF;
     transition: border-bottom 0.5s;
 }
 
@@ -362,7 +362,7 @@ video {
 }
 
 #close-button {
-    color: red;
+    color: tomato;
     font-size: 30px;
 }
 
@@ -376,29 +376,57 @@ video {
 /* ----------------------------------------------- */
 /* ++++++++++++++++ MASTERCLASS ++++++++++++++++++ */
 /* ----------------------------------------------- */
+.section-masterclass {
+    background: #fff;
+}
+
+.card-image {
+    text-align: right;
+}
+
+.master-heading {
+    color: #000;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 7rem; 
+}
 
 .master-text {
     font-family: 'Major Mono Display', monospace !important;
     color: #fff !important;
-    font-size: 1.3rem !important;
+    font-size: 1.7rem !important;
     background-color: #000;
+    line-height: 115%;
+    letter-spacing: 0px;
+    word-spacing: -5px;
+}
 
+.master-text1 {
+    font-family: 'Major Mono Display', monospace !important;
+    color: #fff !important;
+    font-size: 1.8rem !important;
+    background-color: #000;
+    line-height: 115%;
+    letter-spacing: -1px;
+    word-spacing: -5px;
 }
 .master-course {
     font-family: 'Major Mono Display', monospace !important;
-    color: #fff !important;
+    color: #000 !important;
     font-size: 1.3rem !important;
-    background-color: #000;
+    margin: 200px 0;
+    text-align: right;
 }
 
-#masterclass1 {
-
+.fa-heart {
+    color: tomato;
 }
-#masterclass2 {
 
+.fa-globe-asia {
+    color: blue;
 }
-#masterclass3 {
 
+#course {
+    background-color: black;
 }
 
 /* ----------------------------------------------- */
@@ -471,11 +499,11 @@ footer {
 }
 
 .ion-logo-instagram:hover {
-    color: #9e363a;
+    color: #tomato;
 }
 
 .hashtag {
-
+    font-size: 25px;
 }
 footer p {
     color: #fff;
