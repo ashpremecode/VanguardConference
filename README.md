@@ -18,8 +18,8 @@ It is the first time we are hosting a conference for the young adults community 
 ![](https://github.com/ashpremecode/VanguardConference/blob/master/resources/img/screenshot2.png)
 
 ### Built With
-HTML
-CSS
+HTML <br>
+CSS <br>
 JS
 
 ### Installation
