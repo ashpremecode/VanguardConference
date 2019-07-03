@@ -11,10 +11,10 @@ It is the first time we are hosting a conference for the young adults community 
 
 ### Screenshots
 
-Mobile
+#### Mobile
 ![](https://github.com/ashpremecode/VanguardConference/blob/master/resources/img/screenshot1.png)
 
-Desktop
+#### Desktop
 ![](https://github.com/ashpremecode/VanguardConference/blob/master/resources/img/screenshot2.png)
 
 ### Built With
