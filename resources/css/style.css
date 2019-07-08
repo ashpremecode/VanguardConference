@@ -380,53 +380,63 @@ video {
     background: #fff;
 }
 
-.card-image {
-    text-align: right;
-}
 
 .master-heading {
     color: #000;
     font-family: 'Major Mono Display', monospace;
-    font-size: 6rem; 
+    font-size: 6rem;
+}
+
+.master-date {
+    font-family: 'Major Mono Display', monospace !important;
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .master-text {
     font-family: 'Major Mono Display', monospace !important;
-    color: #fff ;
-    font-size: 1.7rem;
-    background-color: #000;
-    line-height: 115%;
-    letter-spacing: 0px;
-    word-spacing: -5px;
+    color: #000 ;
+    letter-spacing: -3px;
+    font-size: 32px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    padding: 0px 40px;
+    text-align: center;
 }
 
 .master-text1 {
     font-family: 'Major Mono Display', monospace !important;
-    color: #fff ;
-    font-size: 1.8rem;
-    background-color: #000;
-    line-height: 115%;
-    letter-spacing: -1px;
-    word-spacing: -5px;
+    color: #000 ;
+    letter-spacing: -3px;
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+  
 }
+
 .master-course {
     font-family: 'Major Mono Display', monospace !important;
     color: #000;
-    font-size: 1.3rem;
-    margin: 200px 0;
-    text-align: right;
+    font-size: 25px;
+    text-align: left;
 }
 
-.fa-heart {
-    color: tomato;
-}
+.master-course1 {
+    font-family: 'Major Mono Display', monospace !important;
+    color: #000;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 80px;
 
-.fa-globe-asia {
-    color: blue;
 }
 
 #course {
     background-color: black;
+}
+#masterclass2 {
+    margin-bottom: 20px;
 }
 
 /* ----------------------------------------------- */
@@ -487,23 +497,34 @@ footer {
     font-size: 300%;
 }
 
-.ion-logo-facebook,
+.fa-facebook-square,
 .ion-logo-instagram {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     color: #fff;
 }
 
-.ion-logo-facebook:hover {
+.fa-facebook-square:hover {
     color: #3b5998;
 }
 
-.ion-logo-instagram:hover {
-    color: #tomato;
+.fa-instagram:hover {
+    color: #FF6347 ;
 }
 
 .hashtag {
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Major Mono Display', monospace !important;
+
+}
+
+#hashtag {
+    color: #fff;
+}
+
+#hashtag:hover {
+    color: #000;
+    background: #FFF;
 }
 footer p {
     color: #fff;
@@ -544,4 +565,60 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 #days, #hours, #minutes, #seconds {
     color: #000;
 }
+
+.card-image-1 {
+    background-image: url(img/stacey.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+
+}
+
+.card-image-2 {
+    background-image: url(img/dan.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+
+}
+
+.card-image-3 {
+    background-image: url(img/dale.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+
+}
+
+#breakout-id {
+    text-align: center;
+}
+
+#breakout-name, #breakout-loc, #breakout {
+font-family: 'Major Mono Display', monospace !important;
+    color: #fff;
+    background-color: #000 !important;
+    text-align: center;
+}
+
+#breakout-loc {
+    font-size: 17px;
+}
+
+#breakout {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
 
